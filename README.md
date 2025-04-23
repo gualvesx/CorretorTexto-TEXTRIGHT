@@ -1,4 +1,4 @@
-![deepseek_mermaid_20250423_c3332c](https://github.com/user-attachments/assets/20c3b167-5734-4334-bc64-ddf59509f89a)# 🚀 TextRight - Corretor Automático de Redação
+# 🚀 TextRight - Corretor Automático de Redação
 
 ## 📌 Índice
 - [Visão Geral](#-visão-geral)
