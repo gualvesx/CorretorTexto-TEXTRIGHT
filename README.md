@@ -39,26 +39,19 @@ O TextRight é uma ferramenta avançada de correção textual que utiliza inteli
 ![deepseek_mermaid_20250423_6aef5a](https://github.com/user-attachments/assets/7506c11a-e0e3-400e-b5fb-294c9ef69858)
 
 
-Frontend: Bootstrap 5 + EJS Templates
 
-Backend: Node.js com Express
+#🤝 Contribuição
+-Siga estes passos para contribuir:
 
-IA: Google Gemini API
+-Faça um fork do projeto
 
-Processamento: WordExtractor (para arquivos .doc)
+-Crie uma branch para sua feature (git checkout -b feature/incrivel)
 
-🤝 Contribuição
-Siga estes passos para contribuir:
+-Commit suas mudanças (git commit -am 'Adiciona feature incrível')
 
-Faça um fork do projeto
+-Push para a branch (git push origin feature/incrivel)
 
-Crie uma branch para sua feature (git checkout -b feature/incrivel)
-
-Commit suas mudanças (git commit -am 'Adiciona feature incrível')
-
-Push para a branch (git push origin feature/incrivel)
-
-Abra um Pull Request
+-Abra um Pull Request
 ### Localmente
 ```bash
 # 1. Clone o repositório
