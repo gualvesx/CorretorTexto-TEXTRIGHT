@@ -36,22 +36,6 @@ O TextRight é uma ferramenta avançada de correção textual que utiliza inteli
 3. Selecione seu arquivo (TXT, DOC ou DOCX)
 4. Aguarde a análise (geralmente 15-30 segundos)
 5. Revise as sugestões de melhoria
-
-### Localmente
-```bash
-# 1. Clone o repositório
-git clone https://github.com/gualvesx/CorretorTexto-TEXTRIGHT.git
-cd CorretorTexto-TEXTRIGHT
-
-# 2. Instale as dependências
-npm install
-
-# 3. Configure o ambiente (crie um arquivo .env)
-echo "GEMINI_API_KEY=sua_chave_aqui" > .env
-
-# 4. Inicie o servidor
-node app.js
-
 🔧 Tecnologias Principais
 
 pie
@@ -81,3 +65,18 @@ Commit suas mudanças (git commit -am 'Adiciona feature incrível')
 Push para a branch (git push origin feature/incrivel)
 
 Abra um Pull Request
+### Localmente
+```bash
+# 1. Clone o repositório
+git clone https://github.com/gualvesx/CorretorTexto-TEXTRIGHT.git
+cd CorretorTexto-TEXTRIGHT
+
+# 2. Instale as dependências
+npm install
+
+# 3. Configure o ambiente (crie um arquivo .env)
+echo "GEMINI_API_KEY=sua_chave_aqui" > .env
+
+# 4. Inicie o servidor
+node app.js
+
