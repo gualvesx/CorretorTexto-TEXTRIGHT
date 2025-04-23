@@ -1,95 +1,83 @@
-📝 TextRight - Corretor de Textos com IA
+# 🚀 TextRight - Corretor Automático de Redação
 
-A ferramenta definitiva para correção de textos usando inteligência artificial
+![Banner do Projeto](https://via.placeholder.com/1200x400/4e73df/FFFFFF?text=TextRight+-+Corretor+de+Textos+com+IA)
 
-✨ Recursos
-✅ Correção gramatical avançada
+## 📌 Índice
+- [Visão Geral](#-visão-geral)
+- [Funcionalidades](#-funcionalidades)
+- [Como Usar](#-como-usar)
+  - [Online](#online)
+  - [Localmente](#localmente)
+- [Tecnologias](#-tecnologias)
+- [Contribuição](#-contribuição)
+- [Licença](#-licença)
 
-🔍 Análise de estrutura textual
+## 🌟 Visão Geral
+O TextRight é uma ferramenta avançada de correção textual que utiliza inteligência artificial para:
 
-📝 Sugestões de melhoria em tempo real
+- Identificar erros gramaticais complexos
+- Sugerir melhorias de estilo e clareza
+- Analisar estrutura e coesão textual
+- Oferecer feedback detalhado instantâneo
 
-📂 Suporte para múltiplos formatos (TXT, DOC, DOCX)
+## ✨ Funcionalidades
+| Recurso | Descrição |
+|---------|-----------|
+| 📝 **Correção Gramatical** | Identifica erros de ortografia, pontuação e concordância |
+| 🧠 **Análise Semântica** | Avalia coerência e progressão temática |
+| 📊 **Pontuação Automática** | Classifica o texto com base em critérios de redação |
+| 🔄 **Multiplataforma** | Funciona em qualquer dispositivo com navegador moderno |
 
-🚀 Processamento rápido com tecnologia Gemini AI
+## 🖥️ Como Usar
 
-🛠️ Como Instalar (Desenvolvimento)
-Clone o repositório
+### Online
+1. Acesse [textright.com](https://textright.com)
+2. Clique em "Enviar Documento"
+3. Selecione seu arquivo (TXT, DOC ou DOCX)
+4. Aguarde a análise (geralmente 15-30 segundos)
+5. Revise as sugestões de melhoria
 
-bash
+### Localmente
+```bash
+# 1. Clone o repositório
 git clone https://github.com/gualvesx/CorretorTexto-TEXTRIGHT.git
 cd CorretorTexto-TEXTRIGHT
-Instale as dependências
 
-bash
+# 2. Instale as dependências
 npm install
-Configure o ambiente
 
-Crie um arquivo .env na raiz do projeto
+# 3. Configure o ambiente (crie um arquivo .env)
+echo "GEMINI_API_KEY=sua_chave_aqui" > .env
 
-Adicione sua chave da API Gemini:
-
-GEMINI_API_KEY=sua_chave_aqui
-Inicie o servidor
-
-bash
+# 4. Inicie o servidor
 node app.js
-Acesse a aplicação
-Abra no navegador:
-http://localhost:3000
 
-🌐 Como Usar (Usuários Finais)
-Acesse o site
-Visite https://textright.com (exemplo)
+🔧 Tecnologias Principais
 
-Envie seu texto
+pie
+    title Stack Tecnológico
+    "Node.js" : 35
+    "Express" : 25
+    "Google Gemini AI" : 30
+    "Multer" : 10
 
-Clique em "Enviar Documento"
+Frontend: Bootstrap 5 + EJS Templates
 
-Selecione seu arquivo (TXT, DOC ou DOCX)
+Backend: Node.js com Express
 
-Aguarde o processamento
+IA: Google Gemini API
 
-Analise os resultados
+Processamento: WordExtractor (para arquivos .doc)
 
-Visualize as correções gramaticais
+🤝 Contribuição
+Siga estes passos para contribuir:
 
-Confira as sugestões de melhoria
-
-Baixe o texto corrigido se necessário
-
-Dicas de uso
-✦ Para melhores resultados, envie textos com até 5 páginas
-✦ Arquivos DOCX têm melhor preservação de formatação
-✦ Utilize os exemplos de referência para comparar
-
-📁 Estrutura do Projeto
-CorretorTexto-TEXTRIGHT/
-├── views/               # Templates EJS
-├── public/              # Arquivos estáticos
-│   ├── css/             # Folhas de estilo
-│   └── js/              # Scripts JavaScript
-├── uploads/             # Documentos enviados
-├── app.js               # Aplicação principal
-├── IA.js                # Integração com Gemini AI
-└── package.json         # Dependências do projeto
-🤝 Como Contribuir
 Faça um fork do projeto
 
-Crie uma branch (git checkout -b feature/nova-feature)
+Crie uma branch para sua feature (git checkout -b feature/incrivel)
 
-Commit suas mudanças (git commit -m 'Adiciona nova feature')
+Commit suas mudanças (git commit -am 'Adiciona feature incrível')
 
-Push para a branch (git push origin feature/nova-feature)
+Push para a branch (git push origin feature/incrivel)
 
 Abra um Pull Request
-
-📜 Licença
-Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para detalhes.
-
-✉️ Contato
-Desenvolvido por [Seu Nome]
-Email: contato@textright.com
-GitHub: @gualvesx
-
-📌 Nota: Este projeto requer uma chave de API válida do Google Gemini para funcionar corretamente. Obtenha sua chave em Google AI Studio.
